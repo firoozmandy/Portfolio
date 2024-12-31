@@ -1,0 +1,9 @@
+#navfix {
+  position: fixed;
+  inset-inline-start: 0px;
+  inset-inline-end: 0px;
+  top: 0px;
+  z-index: 999;
+  border-width: 0px;
+  background-color: transparent;
+}
