@@ -11,10 +11,7 @@ function Header() {
       name="home"
       className="relative grid grid-cols-1 md:grid-cols-2 home"
     >
-      <div
-     
-        className="relative flex justify-center w-full items-center p-20 md:p-32"
-      >
+      <div className="relative flex justify-center w-full items-center p-20 md:p-32">
         <div className="top-52 md:top-40 z-50 absolute bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 m-3 p-4 rounded-lg w-44 text-center md:-start-0 start-0">
           <h6 className="font-semibold">FrontEnd Developer</h6>
           <h6 className="mt-1 text-slate-400 text-sm">3+ Years Experience</h6>
@@ -55,7 +52,9 @@ function Header() {
             repeat={Infinity}
           />
         </div>
-        <div className="font-bold text-4xl text-yellow-300 ">Maryam Firoozmandi</div>
+        <div className="font-bold text-4xl text-yellow-300 ">
+          Maryam Firoozmandi
+        </div>
         <div className="font-bold text-3xl text-gray-700">
           Frontend Developer
         </div>
@@ -63,7 +62,7 @@ function Header() {
           <button className="hover:bg-gray-900 px-6 p-4 rounded-full ring-1 hover:text-white transition">
             <Link
               // className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
-              to="https://s32.picofile.com/file/8481588776/ArezooSH.pdf.html"
+              to="https://s32.picofile.com/d/8481822668/4bbb94a7-52ac-4c14-9e63-fef2c65e4e73/%D9%85%D8%B1%DB%8C%D9%85_%D9%81%DB%8C%D8%B1%D9%88%D8%B2%D9%85%D9%86%D8%AF%DB%8C.pdf"
               target="_blank"
             >
               Download CV

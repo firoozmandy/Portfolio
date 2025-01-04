@@ -5,6 +5,7 @@ import pic3 from "../assets/pic/p3.png";
 import pic4 from "../assets/pic/p4.png";
 import pic5 from "../assets/pic/p5.png";
 import pic6 from "../assets/pic/p6.png";
+import pic7 from "../assets/pic/p7.png";
 import ProjectItems from "./ProjectItems";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
@@ -27,13 +28,13 @@ const data = [
     ),
   },
   {
-    id: 2,
-    pic: pic2,
-    title: "Fitness-me",
+    id: 7,
+    pic: pic7,
+    title: "Portfolio",
     Github: (
       <Link
         className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
-        to="https://github.com/firoozmandy/Fitness-me"
+        to="https://github.com/firoozmandy/Portfolio"
         target="_blank"
       >
         Github
@@ -41,10 +42,11 @@ const data = [
       </Link>
     ),
   },
+  
   {
     id: 3,
     pic: pic3,
-    title: "Fitness-Ava-Design",
+    title: "FitnessAvaDesign",
     Github: (
       <Link
         className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
@@ -59,7 +61,7 @@ const data = [
   {
     id: 4,
     pic: pic4,
-    title: "the-atomic-blog",
+    title: "theAtomicBlog",
     Github: (
       <Link
         className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
@@ -75,7 +77,7 @@ const data = [
   {
     id: 5,
     pic: pic5,
-    title: "Shapping-Cart",
+    title: "ShappingCart",
     Github: (
       <Link
         className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
@@ -102,6 +104,22 @@ const data = [
       </Link>
     ),
   },
+  {
+    id: 2,
+    pic: pic2,
+    title: "FitnessMe",
+    Github: (
+      <Link
+        className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
+        to="https://github.com/firoozmandy/Fitness-me"
+        target="_blank"
+      >
+        Github
+        <FaGithub size={30} />
+      </Link>
+    ),
+  },
+ 
 ];
 
 export default function Project() {
