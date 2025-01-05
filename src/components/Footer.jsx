@@ -17,7 +17,7 @@ const Data = [
 
   {
     id: 4,
-    Http: "https://www.instagram.com/mary_firoozmandi",
+    Http: "https://www.instagram.com/mary_firoozmandi/",
     icons: <FiInstagram />,
   },
   {
