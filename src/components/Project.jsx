@@ -1,4 +1,3 @@
-import React from "react";
 import pic1 from "../assets/pic/p1.png";
 import pic2 from "../assets/pic/p2.png";
 import pic3 from "../assets/pic/p3.png";
@@ -6,6 +5,7 @@ import pic4 from "../assets/pic/p4.png";
 import pic5 from "../assets/pic/p5.png";
 import pic6 from "../assets/pic/p6.png";
 import pic7 from "../assets/pic/p7.png";
+import pic8 from "../assets/pic/p8.png";
 import ProjectItems from "./ProjectItems";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
@@ -42,7 +42,7 @@ const data = [
       </Link>
     ),
   },
-  
+
   {
     id: 3,
     pic: pic3,
@@ -119,7 +119,21 @@ const data = [
       </Link>
     ),
   },
- 
+  {
+    id: 8,
+    pic: pic8,
+    title: "Security",
+    Github: (
+      <Link
+        className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
+        to="https://github.com/firoozmandy/Security-web"
+        target="_blank"
+      >
+        Github
+        <FaGithub size={30} />
+      </Link>
+    ),
+  },
 ];
 
 export default function Project() {
