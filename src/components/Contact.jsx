@@ -16,7 +16,7 @@ export default function Contact() {
             <Link
               to="mailto:marya.firooz.1380@gmail.com"
               target="_blank"
-              className="text-semi-bold text-xl md:text-xl hover:text-yellow-500 transition hover:cursor-pointer"
+              className="text-semi-bold text-xs md:text-xl hover:text-yellow-500 transition hover:cursor-pointer"
             >
               marya.firooz.1380@gmail.com
             </Link>
@@ -26,7 +26,7 @@ export default function Contact() {
             <Link
               to="https://www.linkedin.com/in/marya-firoozmandi/"
               target="_blank"
-              className="text-semi-bold text-xl md:text-xl hover:text-yellow-500 transition hover:cursor-pointer"
+              className="text-semi-bold text-xs md:text-xl hover:text-yellow-500 transition hover:cursor-pointer"
             >
               www.linkedin.com/in/marya-firoozmandi
             </Link>

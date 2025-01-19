@@ -141,7 +141,7 @@ export default function Project() {
     <div name="projects" className="p-5 md:p-20 text-center">
       <div className="pt-2 text-gray-500 text-lg">Browse my recent</div>
       <div className="py-5 font-bold text-5xl text-yellow-500">projects</div>
-      <div className="gap-3 md:gap-5 grid grid-cols-1 md:grid-cols-3 md:py-10 p-10">
+      <div className="gap-3 md:gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:py-10 p-10">
         {/* map */}
         {data.map((item, index) => (
           <ProjectItems

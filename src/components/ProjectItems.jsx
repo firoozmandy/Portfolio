@@ -9,10 +9,10 @@ const ProjectItems = ({ pic, title, Github }) => {
         {title}
       </div>
       <div className="gap-4 grid grid-cols-2 ">
-        <button className=" hover:bg-gray-800 w-32 h-30 p-2 rounded-full ring-1 text-xl md:text-xl hover:text-white transition">
+        <button className=" hover:bg-gray-800 xl:w-32 w-20 h-30 p-2 rounded-full ring-1 text-xl md:text-xl hover:text-white transition">
           {Github}
         </button>
-        <button className="hover:bg-gray-800 w-32 p-2 md:p-4 rounded-full ring-1 text-xl hover:text-white transition">
+        <button className="hover:bg-gray-800 xl:w-32 w-20 p-2 md:p-4 text-xs rounded-full ring-1 sm:text-xl hover:text-white transition">
           Live Demo
         </button>
       </div>

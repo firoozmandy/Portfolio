@@ -34,7 +34,7 @@ const Experience = () => {
           <div className="py-5 font-bold text-3xl text-gray-900">
             Frontend Development
           </div>
-          <div className="gap-2 grid grid-cols-2 md:grid-cols-3 py-10">
+          <div className="gap-7 grid grid-cols-1 md:grid-cols-3 py-10">
             {/* map */}
             {Data.map((item, index) => (
               <ExprerienceItems

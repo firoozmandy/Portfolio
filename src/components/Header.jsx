@@ -12,39 +12,39 @@ function Header() {
       className="relative grid grid-cols-1 md:grid-cols-2 home"
     >
       <div className="relative flex justify-center w-full items-center p-20 md:p-32">
-        <div className="top-52 md:top-40 z-50 absolute bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 m-3 p-4 rounded-lg w-44 text-center md:-start-0 start-0">
+        <div className="hidden md:block top-52 md:top-40 z-50 absolute bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 m-3 p-4 rounded-lg w-44 text-center md:-start-0 start-0">
           <h6 className="font-semibold">FrontEnd Developer</h6>
-          <h6 className="mt-1 text-slate-400 text-sm">3+ Years Experience</h6>
+          <h6 className="mt-1 text-slate-400 text-sm">2+ Years Experience</h6>
         </div>
         <img
           src={Pic1}
-          className="relative z-1 shadow-2xl rounded-full h-[400px]"
+          className="flex flex-grow z-1 shadow-2xl rounded-full lg:h-[400px]"
           alt=""
         />
-        <div className="-bottom-10 lg:bottom-36 absolute bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 m-3 p-4 rounded-lg w-44 text-center -end-0 md:-end-0">
+        <div className="-bottom-10 hidden md:block lg:bottom-36 absolute bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 m-3 p-4 rounded-lg w-44 text-center -end-0 md:-end-0">
           <span className="mb-0 font-medium text-3xl">
             <CountUp end={10} className="font-bold counter-value" />+
           </span>
-          <h6 className="mt-1 text-slate-400 text-sm">Project Completed</h6>
+          <h6 className="mt-1 text-slate-400 text-sm ">Project Completed</h6>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center gap-5 p-32">
-        <div className="font-bold text-3xl text-gray-700">
+      <div className="flex flex-col justify-center items-center gap-5  md:p-32">
+        <div className="font-bold md:text-2xl text-xl text-gray-700">
           Hi, I'm
           {/* animtype */}
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
               "Maryam Firoozmandi",
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              7000, // wait 1s before replacing "Mice" with "Hamsters"
               "Freelancer",
-              1000,
+              7000,
               "Website programer",
-              1000,
+              7000,
               "Web Developers",
-              1000,
+              7000,
               "FrontEnd Developer",
-              1000,
+              7000,
             ]}
             wrapper="span"
             speed={10}
@@ -52,10 +52,10 @@ function Header() {
             repeat={Infinity}
           />
         </div>
-        <div className="font-bold text-4xl text-yellow-300 ">
+        <div className="font-bold text-2xl text-yellow-300 ">
           Maryam Firoozmandi
         </div>
-        <div className="font-bold text-3xl text-gray-700">
+        <div className="font-bold text-2xl text-gray-700">
           Frontend Developer
         </div>
         <div className="flex gap-3">
