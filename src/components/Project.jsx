@@ -6,6 +6,7 @@ import pic5 from "../assets/pic/p5.png";
 import pic6 from "../assets/pic/p6.png";
 import pic7 from "../assets/pic/p7.png";
 import pic8 from "../assets/pic/p8.png";
+import pic9 from "../assets/pic/p9.png";
 import ProjectItems from "./ProjectItems";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
@@ -26,6 +27,11 @@ const data = [
         <FaGithub size={30} />
       </Link>
     ),
+    LiveDemo: (
+      <Link to="https://learn-marfa-english.netlify.app/" target="_blank">
+        Live Demo
+      </Link>
+    ),
   },
   {
     id: 7,
@@ -39,6 +45,11 @@ const data = [
       >
         Github
         <FaGithub size={30} />
+      </Link>
+    ),
+    LiveDemo: (
+      <Link to="https://maryamportfoliooo.netlify.app/" target="_blank">
+        Live Demo
       </Link>
     ),
   },
@@ -57,6 +68,11 @@ const data = [
         <FaGithub size={30} />
       </Link>
     ),
+    LiveDemo: (
+      <Link to="https://fitness-avadesign-project.netlify.app/" target="_blank">
+        Live Demo
+      </Link>
+    ),
   },
   {
     id: 4,
@@ -72,6 +88,12 @@ const data = [
         <FaGithub size={30} />
       </Link>
     ),
+    LiveDemo: (
+      <Link to="https://atomic-blog-webmarfa.netlify.app/" target="_blank">
+        Live Demo
+      </Link>
+    ),
+  
   },
 
   {
@@ -86,6 +108,11 @@ const data = [
       >
         Github
         <FaGithub size={30} />
+      </Link>
+    ),
+    LiveDemo: (
+      <Link to="https://shapping-marfa-project.netlify.app/" target="_blank">
+        Live Demo
       </Link>
     ),
   },
@@ -103,6 +130,11 @@ const data = [
         <FaGithub size={30} />
       </Link>
     ),
+    LiveDemo: (
+      <Link to="https://usepopcorn-marfa.netlify.app/" target="_blank">
+        Live Demo
+      </Link>
+    ),
   },
   {
     id: 2,
@@ -116,6 +148,11 @@ const data = [
       >
         Github
         <FaGithub size={30} />
+      </Link>
+    ),
+    LiveDemo: (
+      <Link to="https://fitness-app-me.netlify.app/" target="_blank">
+        Live Demo
       </Link>
     ),
   },
@@ -133,6 +170,31 @@ const data = [
         <FaGithub size={30} />
       </Link>
     ),
+    LiveDemo: (
+      <Link to="https://security-marfa.netlify.app/" target="_blank">
+        Live Demo
+      </Link>
+    ),
+  },
+  {
+    id: 9,
+    pic: pic9,
+    title: "MarfaWeb",
+    Github: (
+      <Link
+        className="flex justify-around items-center w-full h-full text-gray-800 hover:text-white transition"
+        to="https://github.com/firoozmandy/marfa-web"
+        target="_blank"
+      >
+        Github
+        <FaGithub size={30} />
+      </Link>
+    ),
+    LiveDemo: (
+      <Link to="https://marfa-web.netlify.app/#" target="_blank">
+        Live Demo
+      </Link>
+    ),
   },
 ];
 
@@ -148,6 +210,7 @@ export default function Project() {
             pic={item.pic}
             title={item.title}
             Github={item.Github}
+            LiveDemo={item.LiveDemo}
             key={index.id}
           />
         ))}
