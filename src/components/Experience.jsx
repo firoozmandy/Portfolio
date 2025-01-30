@@ -1,4 +1,3 @@
-import React from "react";
 import ExprerienceItems from "./ExprerienceItems";
 import PicTik from "../assets/freepik//tik.png";
 
