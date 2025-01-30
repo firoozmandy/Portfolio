@@ -205,13 +205,13 @@ export default function Project() {
       <div className="py-5 font-bold text-5xl text-yellow-500">projects</div>
       <div className="gap-3 md:gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:py-10 p-10">
         {/* map */}
-        {data.map((item, index) => (
+        {data.map((item) => (
           <ProjectItems
             pic={item.pic}
             title={item.title}
             Github={item.Github}
             LiveDemo={item.LiveDemo}
-            key={index.id}
+            key={item.id}
           />
         ))}
       </div>

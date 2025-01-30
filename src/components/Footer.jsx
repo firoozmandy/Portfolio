@@ -66,15 +66,12 @@ export default function Footer() {
             <ul className="space-x-1 lg:col-span-4 mt-6 md:mt-0 text-center md:text-end list-none">
               {/* **********   map  ********** */}
 
-              {Data.map((items, index) => (
-                <div className="inline-flex justify-center items-center border-gray-800 hover:border-orange-500 dark:hover:border-yellow-500 dark:border-slate-800 hover:bg-yellow-500 dark:hover:bg-yellow-500 border rounded-xl w-8 h-8 text-[15px] text-center text-slate-300 hover:text-white tracking-wide duration-500 align-middle">
-                  {
-                    <FooterSocial
-                      Http={items.Http}
-                      icons={items.icons}
-                      key={index.id}
-                    />
-                  }
+              {Data.map((items) => (
+                <div
+                  key={items.id}
+                  className="inline-flex justify-center items-center border-gray-800 hover:border-orange-500 dark:hover:border-yellow-500 dark:border-slate-800 hover:bg-yellow-500 dark:hover:bg-yellow-500 border rounded-xl w-8 h-8 text-[15px] text-center text-slate-300 hover:text-white tracking-wide duration-500 align-middle"
+                >
+                  {<FooterSocial Http={items.Http} icons={items.icons} />}
                 </div>
               ))}
             </ul>

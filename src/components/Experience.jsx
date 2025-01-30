@@ -36,12 +36,12 @@ const Experience = () => {
           </div>
           <div className="gap-7 grid grid-cols-1 md:grid-cols-3 py-10">
             {/* map */}
-            {Data.map((item, index) => (
+            {Data.map((item) => (
               <ExprerienceItems
                 pic={item.pic}
                 // skill={item.title}
                 Experience={item.Experience}
-                key={index.id}
+                key={item.id}
               >
                 {item.title}
               </ExprerienceItems>
@@ -57,11 +57,11 @@ const Experience = () => {
           </div>
           <div className="gap-2 grid grid-cols-2 md:grid-cols-3 m-0 py-10">
             {/* map */}
-            {dataBack.map((item, index) => (
+            {dataBack.map((item) => (
               <ExprerienceItems
                 pic={item.pic}
                 Experience={item.Experience}
-                key={index.id}
+                key={item.id}
               >
                 {item.title}
               </ExprerienceItems>
